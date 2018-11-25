@@ -1,0 +1,27 @@
+1) git init - nicializuje git repozytorium
+2) git rm --cached <nazwa_pliku> - przestaje œledziæ plik
+3) git add *.txt - dodaje wszystkie pliku o danym rozsze¿eniu 
+4) git add <nazwa_pliku> - dodaje wybrany plik
+5) git add . - dodaje wszystko
+6) git commit .- komituje zmiany dla wszystkich plików (opali siê VIM aby pisaæ wciœnij A-pojawi siê operacja wprowadz lub insert w ang, aby wyjœæ wciœnij esc i wpisz ":wq")
+7) git commit -m 'tutaj wpisz treœæ komitu' - komituje omijaj¹c edytor VIM
+8) clear - czyœci konsolê
+
+Ignorowanie plików przez gita
+9) touch .gitignore - tworze plik w którym  bêdê wpisywaæ nazwy plików które maj¹ byæ ignorowane!
+10) touch log.txt - tworzê plik z loagmi który ma byæ ignorowany
+11) git brach <nazwa_ga³êzi> - tworzy now¹ ga³¹Ÿ 
+12) git checkout <nazwa_ga³êzi> - zmieniam ga³¹Ÿ
+13) git merge <nazwa_ga³êzi> - ³¹czy ga³êŸ z masterem
+14) git remote add origin https://github.com/Mar3k017/exercises.git - wysy³a lokalne repozytorium na zdalne
+15) git push -u origin master - zatwierdza wys³ane repozytorium i zapsiuje je na zdalnym serwerze tutaj na githubie
+(Uwaga! gdy u¿yjemu polecenia 'git remote add origin <adres>' aby wprowadzaæ zmiany w zdalnym repozytrium u¿ywam polecenia git push -u orgin <nazwa_ga³êzi> 
+16) git clone -b <branch_name> <repository_URL> example: git clone -b information https://github.com/Mar3k017/exercises.git
+-pozwala wykonaæ klon wybranej ga³êzi z zdalnego repozystorium.
+17) ls -pokazuje katalogi w repo
+18) cp <katalog_kopiowany/> <katalog_docelowy/> -r -kopijuje katalog do repo np.:  cp PlikiDoRepo/ GitClone/ -r
+19) git commit --amend - pozwala zrobiæ up date istniejacego komita bez koniecznoœci tworzenia nowego!!
+20) git push -f origin master - wymusza aktualizacjê na zdalnym repo
+21) git push -f origin slave- wymusza aktualizacjê na zdalnym repo na zadanej ga³êzi
+22) git log - pokazuje wszystki kommity wraz z dayta i komentarzami które dodaliœmy!!
+
